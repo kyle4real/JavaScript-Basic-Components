@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Poppins&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dark-primary: #222831;
+    --dark-secondary: #393e46;
+    --blue: #00adb5;
+    --light-primary: #eeeeee;
+}
+
+body {
+    /* font-family: "Archivo", sans-serif; */
+    font-family: "Poppins", sans-serif;
+    font-size: 1.125rem;
+}

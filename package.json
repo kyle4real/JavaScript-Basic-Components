@@ -1,0 +1,16 @@
+{
+    "name": "components",
+    "version": "0.1.0",
+    "description": "Basic Vanilla Javascript Components All-In-One",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "keywords": [
+        "components",
+        "javascript"
+    ],
+    "author": "Kyle Friel",
+    "license": "MIT"
+}
