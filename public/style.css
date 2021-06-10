@@ -17,4 +17,101 @@ body {
     /* font-family: "Archivo", sans-serif; */
     font-family: "Poppins", sans-serif;
     font-size: 1.125rem;
+    background-color: var(--light-primary);
+}
+
+a {
+    text-decoration: none;
+    color: var(--light-primary);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    /* background-color: var(--dark-secondary); */
+    color: var(--light-primary);
+    /* border-left: 3px solid var(--blue);
+    border-right: 3px solid var(--blue); */
+}
+
+.nav {
+    height: 80px;
+    background-color: var(--dark-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-link a,
+.logo h1 {
+    padding: 8px 10px;
+}
+
+.logo h1 {
+    cursor: pointer;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link a {
+    padding: 8px 10px;
+    margin-left: 5px;
+    transition: color 0.3s ease;
+}
+.nav-link a:hover {
+    color: var(--blue);
+}
+
+/* SLIDESHOW */
+.slideshow {
+    height: 500px;
+    border-top: 3px solid var(--blue);
+    border-bottom: 3px solid var(--blue);
+    background: var(--dark-secondary);
+}
+
+.slideshow-container {
+    height: 100%;
+    color: var(--dark-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* .line {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: rebeccapurple;
+    top: 50%;
+} */
+
+.arrow {
+    border-radius: 48%;
+    font-size: 4rem;
+    cursor: pointer;
+    color: var(--light-primary);
+}
+
+.image-container {
+    width: 500px;
+    margin: 0 40px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+/* CARDS */
+.cards {
+    height: 500px;
+    background-color: var(--dark-primary);
 }
