@@ -95,7 +95,7 @@ a {
 
 .arrow {
     border-radius: 48%;
-    font-size: 4rem;
+    font-size: 3rem;
     cursor: pointer;
     color: var(--light-primary);
 }
@@ -110,8 +110,8 @@ a {
     height: auto;
 }
 
-/* CARDS */
-.cards {
-    height: 500px;
+/* SEPERator */
+.seperator {
+    height: 80px;
     background-color: var(--dark-primary);
 }
